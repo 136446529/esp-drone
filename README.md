@@ -34,6 +34,24 @@ Additional third party copyrighted code is included under the following licenses
 | core/crazyflie | GPL3.0  |[Crazyflie](https://github.com/bitcraze/crazyflie-firmware) |a2a26abd53a5f328374877bfbcb7b25ed38d8111|
 | lib/dsp_lib |  | [esp32-lin](https://github.com/whyengineer/esp32-lin/tree/master/components/dsp_lib) |6fa39f4cd5f7782b3a2a052767f0fb06be2378ff|
 
+### Errata
+
+ERROR1: Wireless ap can't connect  
+monitor: I (7082) phy: pll_cap_ext 10
+
+`‵‵
+# [ERROR]: Wireless ap can't connect
+idf.py monitor
+# I (7082) phy: pll_cap_ext 10
+idf.py --version
+# ESP-IDF v4.3-dev-2137-g4d46d6e3e-dirty
+# [DEBUG]: try use esp-idf release/4.?
+git clone -b release/v4.? --recursive https://github.com/espressif/esp-idf.git
+# ...
+idf.py --version
+# ESP-IDF v4.?
+```
+
 ### THANKS
 
 1. Thanks to Bitcraze for the great [Crazyflie project](https://www.bitcraze.io/%20).
