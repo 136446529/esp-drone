@@ -39,17 +39,17 @@ Additional third party copyrighted code is included under the following licenses
 ERROR1: Wireless ap can't connect  
 monitor: I (7082) phy: pll_cap_ext 10
 
-`‵‵
+```
 # [ERROR]: Wireless ap can't connect
 idf.py monitor
 # I (7082) phy: pll_cap_ext 10
 idf.py --version
 # ESP-IDF v4.3-dev-2137-g4d46d6e3e-dirty
-# [DEBUG]: try use esp-idf release/4.?
+# [DEBUG]: try use esp-idf v4.2-47-g2532ddd9f-dirty
 git clone -b release/v4.? --recursive https://github.com/espressif/esp-idf.git
 # ...
 idf.py --version
-# ESP-IDF v4.?
+# ESP-IDF ESP-IDF v4.2-47-g2532ddd9f-dirty
 ```
 
 ### THANKS
